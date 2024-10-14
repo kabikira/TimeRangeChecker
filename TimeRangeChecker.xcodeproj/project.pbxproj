@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3F8F5E2CBBFB3000652B11 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B3F8F5D2CBBFB3000652B11 /* IQKeyboardManagerSwift */; };
+		3B3F8F612CBC074400652B11 /* IQKeyboardToolbarManager in Frameworks */ = {isa = PBXBuildFile; productRef = 3B3F8F602CBC074400652B11 /* IQKeyboardToolbarManager */; };
+		3B3F8F642CBC0D7600652B11 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F8F632CBC0D7600652B11 /* CoreDataManager.swift */; };
+		3B3F8F692CBC192700652B11 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3F8F682CBC192600652B11 /* History.storyboard */; };
+		3B3F8F6B2CBC196800652B11 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F8F6A2CBC196800652B11 /* HistoryViewController.swift */; };
+		3B3F8F6F2CBC208800652B11 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F8F6E2CBC208800652B11 /* HistoryCell.swift */; };
+		3B3F8F712CBC209900652B11 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B3F8F702CBC209900652B11 /* HistoryCell.xib */; };
+		3B5783122CB57C29000B293A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5783112CB57C29000B293A /* AppDelegate.swift */; };
+		3B5783142CB57C29000B293A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5783132CB57C29000B293A /* SceneDelegate.swift */; };
+		3B57831E2CB57C2B000B293A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B57831D2CB57C2B000B293A /* Assets.xcassets */; };
+		3B5783212CB57C2B000B293A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3B5783202CB57C2B000B293A /* Base */; };
+		3B57832C2CB57C2B000B293A /* TimeRangeCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57832B2CB57C2B000B293A /* TimeRangeCheckerTests.swift */; };
+		3B5783362CB57C2B000B293A /* TimeRangeCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5783352CB57C2B000B293A /* TimeRangeCheckerUITests.swift */; };
+		3B5783382CB57C2B000B293A /* TimeRangeCheckerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5783372CB57C2B000B293A /* TimeRangeCheckerUITestsLaunchTests.swift */; };
+		3B5783492CB57E8F000B293A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5783482CB57E8F000B293A /* InputViewController.swift */; };
+		3B57834B2CB57EA1000B293A /* Input.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B57834A2CB57EA1000B293A /* Input.storyboard */; };
+		3BEE79BA2CBC2B3600035C93 /* TimeRangeChecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE79B82CBC2B3600035C93 /* TimeRangeChecker.xcdatamodeld */; };
+		3BEE79BE2CBC4E4F00035C93 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE79BD2CBC4E4F00035C93 /* TabBarController.swift */; };
+		3BEE79C12CBCF86E00035C93 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE79C02CBCF86E00035C93 /* DateHelper.swift */; };
+		3BEE79C42CBD45C900035C93 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE79C32CBD45C900035C93 /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5783282CB57C2B000B293A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5783062CB57C29000B293A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B57830D2CB57C29000B293A;
+			remoteInfo = TimeRangeChecker;
+		};
+		3B5783322CB57C2B000B293A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5783062CB57C29000B293A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B57830D2CB57C29000B293A;
+			remoteInfo = TimeRangeChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3F8F632CBC0D7600652B11 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3B3F8F682CBC192600652B11 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		3B3F8F6A2CBC196800652B11 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3B3F8F6E2CBC208800652B11 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		3B3F8F702CBC209900652B11 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		3B57830E2CB57C29000B293A /* TimeRangeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeRangeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5783112CB57C29000B293A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B5783132CB57C29000B293A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B57831D2CB57C2B000B293A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5783202CB57C2B000B293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B5783222CB57C2B000B293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5783272CB57C2B000B293A /* TimeRangeCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeRangeCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B57832B2CB57C2B000B293A /* TimeRangeCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangeCheckerTests.swift; sourceTree = "<group>"; };
+		3B5783312CB57C2B000B293A /* TimeRangeCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeRangeCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5783352CB57C2B000B293A /* TimeRangeCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangeCheckerUITests.swift; sourceTree = "<group>"; };
+		3B5783372CB57C2B000B293A /* TimeRangeCheckerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangeCheckerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B5783482CB57E8F000B293A /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		3B57834A2CB57EA1000B293A /* Input.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Input.storyboard; sourceTree = "<group>"; };
+		3BEE79B92CBC2B3600035C93 /* TimeRangeChecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeRangeChecker.xcdatamodel; sourceTree = "<group>"; };
+		3BEE79BD2CBC4E4F00035C93 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3BEE79C02CBCF86E00035C93 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		3BEE79C32CBD45C900035C93 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B57830B2CB57C29000B293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3F8F5E2CBBFB3000652B11 /* IQKeyboardManagerSwift in Frameworks */,
+				3B3F8F612CBC074400652B11 /* IQKeyboardToolbarManager in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5783242CB57C2B000B293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57832E2CB57C2B000B293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3F8F622CBC0C0100652B11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F8F632CBC0D7600652B11 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B3F8F6C2CBC205200652B11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F8F6E2CBC208800652B11 /* HistoryCell.swift */,
+				3B3F8F702CBC209900652B11 /* HistoryCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B5783052CB57C29000B293A = {
+			isa = PBXGroup;
+			children = (
+				3B5783102CB57C29000B293A /* TimeRangeChecker */,
+				3B57832A2CB57C2B000B293A /* TimeRangeCheckerTests */,
+				3B5783342CB57C2B000B293A /* TimeRangeCheckerUITests */,
+				3B57830F2CB57C29000B293A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B57830F2CB57C29000B293A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B57830E2CB57C29000B293A /* TimeRangeChecker.app */,
+				3B5783272CB57C2B000B293A /* TimeRangeCheckerTests.xctest */,
+				3B5783312CB57C2B000B293A /* TimeRangeCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5783102CB57C29000B293A /* TimeRangeChecker */ = {
+			isa = PBXGroup;
+			children = (
+				3B5783112CB57C29000B293A /* AppDelegate.swift */,
+				3B5783132CB57C29000B293A /* SceneDelegate.swift */,
+				3BEE79BF2CBCF80100035C93 /* Utility */,
+				3BEE79BB2CBC4DB800035C93 /* Custom Views */,
+				3B3F8F622CBC0C0100652B11 /* Model */,
+				3B5783442CB57DE0000B293A /* Input */,
+				3B5783452CB57DF0000B293A /* History */,
+				3B57831D2CB57C2B000B293A /* Assets.xcassets */,
+				3B57831F2CB57C2B000B293A /* LaunchScreen.storyboard */,
+				3B5783222CB57C2B000B293A /* Info.plist */,
+				3BEE79B82CBC2B3600035C93 /* TimeRangeChecker.xcdatamodeld */,
+			);
+			path = TimeRangeChecker;
+			sourceTree = "<group>";
+		};
+		3B57832A2CB57C2B000B293A /* TimeRangeCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B57832B2CB57C2B000B293A /* TimeRangeCheckerTests.swift */,
+			);
+			path = TimeRangeCheckerTests;
+			sourceTree = "<group>";
+		};
+		3B5783342CB57C2B000B293A /* TimeRangeCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5783352CB57C2B000B293A /* TimeRangeCheckerUITests.swift */,
+				3B5783372CB57C2B000B293A /* TimeRangeCheckerUITestsLaunchTests.swift */,
+			);
+			path = TimeRangeCheckerUITests;
+			sourceTree = "<group>";
+		};
+		3B5783442CB57DE0000B293A /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				3B5783462CB57E60000B293A /* Controller */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		3B5783452CB57DF0000B293A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F8F6C2CBC205200652B11 /* View */,
+				3B5783472CB57E6D000B293A /* Controller */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3B5783462CB57E60000B293A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B57834A2CB57EA1000B293A /* Input.storyboard */,
+				3B5783482CB57E8F000B293A /* InputViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B5783472CB57E6D000B293A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B3F8F682CBC192600652B11 /* History.storyboard */,
+				3B3F8F6A2CBC196800652B11 /* HistoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BEE79BB2CBC4DB800035C93 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE79C22CBD45A000035C93 /* Alert */,
+				3BEE79BC2CBC4DD500035C93 /* TabBarControllers */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		3BEE79BC2CBC4DD500035C93 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE79BD2CBC4E4F00035C93 /* TabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		3BEE79BF2CBCF80100035C93 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE79C02CBCF86E00035C93 /* DateHelper.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3BEE79C22CBD45A000035C93 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE79C32CBD45C900035C93 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B57830D2CB57C29000B293A /* TimeRangeChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B57833B2CB57C2B000B293A /* Build configuration list for PBXNativeTarget "TimeRangeChecker" */;
+			buildPhases = (
+				3B57830A2CB57C29000B293A /* Sources */,
+				3B57830B2CB57C29000B293A /* Frameworks */,
+				3B57830C2CB57C29000B293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B9E0CBC2CB59467002DDA96 /* PBXTargetDependency */,
+			);
+			name = TimeRangeChecker;
+			packageProductDependencies = (
+				3B3F8F5D2CBBFB3000652B11 /* IQKeyboardManagerSwift */,
+				3B3F8F602CBC074400652B11 /* IQKeyboardToolbarManager */,
+			);
+			productName = TimeRangeChecker;
+			productReference = 3B57830E2CB57C29000B293A /* TimeRangeChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5783262CB57C2B000B293A /* TimeRangeCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B57833E2CB57C2B000B293A /* Build configuration list for PBXNativeTarget "TimeRangeCheckerTests" */;
+			buildPhases = (
+				3B5783232CB57C2B000B293A /* Sources */,
+				3B5783242CB57C2B000B293A /* Frameworks */,
+				3B5783252CB57C2B000B293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5783292CB57C2B000B293A /* PBXTargetDependency */,
+			);
+			name = TimeRangeCheckerTests;
+			productName = TimeRangeCheckerTests;
+			productReference = 3B5783272CB57C2B000B293A /* TimeRangeCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B5783302CB57C2B000B293A /* TimeRangeCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5783412CB57C2B000B293A /* Build configuration list for PBXNativeTarget "TimeRangeCheckerUITests" */;
+			buildPhases = (
+				3B57832D2CB57C2B000B293A /* Sources */,
+				3B57832E2CB57C2B000B293A /* Frameworks */,
+				3B57832F2CB57C2B000B293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5783332CB57C2B000B293A /* PBXTargetDependency */,
+			);
+			name = TimeRangeCheckerUITests;
+			productName = TimeRangeCheckerUITests;
+			productReference = 3B5783312CB57C2B000B293A /* TimeRangeCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5783062CB57C29000B293A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3B57830D2CB57C29000B293A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3B5783262CB57C2B000B293A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3B57830D2CB57C29000B293A;
+					};
+					3B5783302CB57C2B000B293A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3B57830D2CB57C29000B293A;
+					};
+				};
+			};
+			buildConfigurationList = 3B5783092CB57C29000B293A /* Build configuration list for PBXProject "TimeRangeChecker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5783052CB57C29000B293A;
+			packageReferences = (
+				3B9E0CBA2CB59447002DDA96 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				3B3F8F5C2CBBFA8E00652B11 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				3B3F8F5F2CBC074400652B11 /* XCRemoteSwiftPackageReference "IQKeyboardToolbarManager" */,
+			);
+			productRefGroup = 3B57830F2CB57C29000B293A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B57830D2CB57C29000B293A /* TimeRangeChecker */,
+				3B5783262CB57C2B000B293A /* TimeRangeCheckerTests */,
+				3B5783302CB57C2B000B293A /* TimeRangeCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B57830C2CB57C29000B293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3F8F712CBC209900652B11 /* HistoryCell.xib in Resources */,
+				3B57831E2CB57C2B000B293A /* Assets.xcassets in Resources */,
+				3B57834B2CB57EA1000B293A /* Input.storyboard in Resources */,
+				3B5783212CB57C2B000B293A /* Base in Resources */,
+				3B3F8F692CBC192700652B11 /* History.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5783252CB57C2B000B293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57832F2CB57C2B000B293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B57830A2CB57C29000B293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3F8F6F2CBC208800652B11 /* HistoryCell.swift in Sources */,
+				3BEE79BE2CBC4E4F00035C93 /* TabBarController.swift in Sources */,
+				3B5783122CB57C29000B293A /* AppDelegate.swift in Sources */,
+				3BEE79BA2CBC2B3600035C93 /* TimeRangeChecker.xcdatamodeld in Sources */,
+				3B5783142CB57C29000B293A /* SceneDelegate.swift in Sources */,
+				3B3F8F6B2CBC196800652B11 /* HistoryViewController.swift in Sources */,
+				3BEE79C12CBCF86E00035C93 /* DateHelper.swift in Sources */,
+				3B3F8F642CBC0D7600652B11 /* CoreDataManager.swift in Sources */,
+				3BEE79C42CBD45C900035C93 /* Alert.swift in Sources */,
+				3B5783492CB57E8F000B293A /* InputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5783232CB57C2B000B293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B57832C2CB57C2B000B293A /* TimeRangeCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57832D2CB57C2B000B293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5783362CB57C2B000B293A /* TimeRangeCheckerUITests.swift in Sources */,
+				3B5783382CB57C2B000B293A /* TimeRangeCheckerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5783292CB57C2B000B293A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B57830D2CB57C29000B293A /* TimeRangeChecker */;
+			targetProxy = 3B5783282CB57C2B000B293A /* PBXContainerItemProxy */;
+		};
+		3B5783332CB57C2B000B293A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B57830D2CB57C29000B293A /* TimeRangeChecker */;
+			targetProxy = 3B5783322CB57C2B000B293A /* PBXContainerItemProxy */;
+		};
+		3B9E0CBC2CB59467002DDA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3B9E0CBB2CB59467002DDA96 /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B57831F2CB57C2B000B293A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5783202CB57C2B000B293A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B5783392CB57C2B000B293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B57833A2CB57C2B000B293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B57833C2CB57C2B000B293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW275526Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeRangeChecker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imael.TimeRangeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B57833D2CB57C2B000B293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW275526Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeRangeChecker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imael.TimeRangeChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B57833F2CB57C2B000B293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW275526Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imael.TimeRangeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeRangeChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeRangeChecker";
+			};
+			name = Debug;
+		};
+		3B5783402CB57C2B000B293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW275526Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imael.TimeRangeCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeRangeChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeRangeChecker";
+			};
+			name = Release;
+		};
+		3B5783422CB57C2B000B293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW275526Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imael.TimeRangeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeRangeChecker;
+			};
+			name = Debug;
+		};
+		3B5783432CB57C2B000B293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DW275526Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imael.TimeRangeCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeRangeChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5783092CB57C29000B293A /* Build configuration list for PBXProject "TimeRangeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5783392CB57C2B000B293A /* Debug */,
+				3B57833A2CB57C2B000B293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B57833B2CB57C2B000B293A /* Build configuration list for PBXNativeTarget "TimeRangeChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B57833C2CB57C2B000B293A /* Debug */,
+				3B57833D2CB57C2B000B293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B57833E2CB57C2B000B293A /* Build configuration list for PBXNativeTarget "TimeRangeCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B57833F2CB57C2B000B293A /* Debug */,
+				3B5783402CB57C2B000B293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5783412CB57C2B000B293A /* Build configuration list for PBXNativeTarget "TimeRangeCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5783422CB57C2B000B293A /* Debug */,
+				3B5783432CB57C2B000B293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B3F8F5C2CBBFA8E00652B11 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.2.0;
+			};
+		};
+		3B3F8F5F2CBC074400652B11 /* XCRemoteSwiftPackageReference "IQKeyboardToolbarManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardToolbarManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		3B9E0CBA2CB59447002DDA96 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B3F8F5D2CBBFB3000652B11 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B3F8F5C2CBBFA8E00652B11 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		3B3F8F602CBC074400652B11 /* IQKeyboardToolbarManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B3F8F5F2CBC074400652B11 /* XCRemoteSwiftPackageReference "IQKeyboardToolbarManager" */;
+			productName = IQKeyboardToolbarManager;
+		};
+		3B9E0CBB2CB59467002DDA96 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B9E0CBA2CB59447002DDA96 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3BEE79B82CBC2B3600035C93 /* TimeRangeChecker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BEE79B92CBC2B3600035C93 /* TimeRangeChecker.xcdatamodel */,
+			);
+			currentVersion = 3BEE79B92CBC2B3600035C93 /* TimeRangeChecker.xcdatamodel */;
+			name = TimeRangeChecker.xcdatamodeld;
+			path = /Users/koalapanda/GitHub/Swift/iOS/LearningProjects/TimeRangeChecker/TimeRangeChecker/TimeRangeChecker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B5783062CB57C29000B293A /* Project object */;
+}
